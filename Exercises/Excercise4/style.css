@@ -1,0 +1,40 @@
+*{
+    margin :0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+ :root{
+    --primary_color : rgb(5, 5, 86);
+    --sec_color : rgb(99, 99, 221);
+} 
+ /* :root{
+    --primary_color : rgb(113, 72, 0);
+    --sec_color : rgb(190, 128, 30);
+} */
+nav{
+    height: 50px;
+    background-color: var(--primary_color);
+}
+body{
+    background-color: var(--sec_color);
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+
+
+
+
