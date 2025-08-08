@@ -29,6 +29,31 @@ nav{
 .right ul li span{
     padding: 0px 5px;
 }
+.last ul{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 30px;
+}
+.earth{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:'Segoe UI';
+}
+.last ul li{
+    list-style: none;
+}
+.last ul li span{
+    padding: 0px 5px;
+}
+.buy{
+    padding: 10px 10px;
+    border: 3px solid black;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: white;
+
+}
 .first{
     display: flex;
     flex-direction: column;
@@ -45,6 +70,15 @@ nav{
     text-align: center;
     width: 64vw;
     font-size: 30px;
+}
+.hmm{
+    font-size: 10px;
+}
+.hehe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .btn-big{
     background-color: rgb(0, 182, 209); 
@@ -98,10 +132,17 @@ nav{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 60px;
+    gap: 25px;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+}
+.item-large{
+    font-size: 19px;
+    font-weight: 700;
+}
+.item-small{
+    font-weight: 300;
 }
 .grid{
      width: 60vw;
@@ -112,8 +153,9 @@ nav{
     
 }
 .btn-small{
-    
-    font-size: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
     padding: 13px;
     border: none;
     border-radius: 4px;
@@ -122,4 +164,41 @@ nav{
     .grid{
         grid-template-columns: 1fr;
     }
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    
+    width: 60vw;
+    margin: 0 auto;
+    gap: 30px;
+    
+}
+footer{
+    background-color: black;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.box{
+    height: 270px;
+    width: 270px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sec2{
+    color: white;
+    width: 60vw;
+    margin: 0 auto;
+    
 }
