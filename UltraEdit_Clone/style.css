@@ -1,0 +1,125 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Segoe UI';
+}
+.logo img{
+        width: 150px;
+    height: 60px;
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 41px;
+}
+.right ul li span{
+    padding: 0px 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+.abc{
+    font-size: 41px;
+}
+.text2{
+    text-align: center;
+    width: 64vw;
+    font-size: 30px;
+}
+.btn-big{
+    background-color: rgb(0, 182, 209); 
+    padding: 14px 16px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    margin: -9px;
+    margin-left: -200px;
+    
+}
+.t1{
+    font-size: 26px;
+    margin: 6px;
+}
+.t2{
+    font-size: 16px;
+}
+.download{
+    font-family: sans-serif;
+}
+.download span a{
+    color: black;
+    text-decoration: none;
+}
+.second{
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+.green{
+    background-color: rgb(92, 184, 92);
+}
+.blue{
+    background-color: rgb(0, 182, 209); 
+}
+.item{
+    background-color: #f9f9f9e6;
+    padding: 36px 1px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.grid{
+     width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px;
+    width: 813px;
+    
+}
+.btn-small{
+    
+    font-size: 12px;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+}
+@media screen and (max-width : 945px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
