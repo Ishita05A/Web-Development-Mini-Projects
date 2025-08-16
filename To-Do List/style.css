@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Mozilla+Headline:wght@200..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #3E185D; */
+    background: linear-gradient(135deg,#153677,#4e085f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-app{
+    background: white;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+.todo-app h2{
+    color: #153677;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+input{
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 28px;
+}
+button{
+        background-color: rgb(255 92 32);
+    border-radius: 25px;
+    padding: 10px 28px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+ul li{
+    list-style: none;
+    font-size: 27px;
+    padding: 15px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width :28px;
+    border-radius: 50%;
+    /* background-image:url(unchecked.png);
+     background-size: cover; 
+    background-position: center;
+    
+    top: 12px;
+    left: 12px;  */
+}
+li img{
+    height: 25px;
+    width: 25px;
+}
+.checked{
+    color: #555;
+    text-decoration: line-through;
+
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 27px;
+    color: #555;
+    text-align: center;
+}
+ul li span:hover{
+    background-color: rgb(223, 220, 220);
+    border-radius: 50%;
+}
+
